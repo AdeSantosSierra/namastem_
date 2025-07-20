@@ -1,0 +1,28 @@
+# LaTeX .gitignore - Only keep .tex files and essential directories
+# Ignore all files by default
+*
+
+# But keep .tex files
+!*.tex
+
+# Keep important directories
+!*/
+
+# Keep .gitignore itself
+!.gitignore
+
+# Keep README files
+!README*
+!readme*
+
+# Keep style files (.sty)
+!*.sty
+
+# Optionally keep some source files that might be needed
+# Uncomment these lines if you need them:
+# !*.bib
+# !*.cls
+# !*.png
+# !*.jpg
+# !*.jpeg
+# !*.pdf (only if you want to keep some PDFs in version control)
